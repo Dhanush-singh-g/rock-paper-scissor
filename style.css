@@ -1,0 +1,45 @@
+
+body{
+    font-family:sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+h1{
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.choice{
+    size: 100px;
+    gap:10px;
+    margin-bottom: 30px;
+}
+
+.choice button{
+    font-size:90px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 200, 255, 0.725);
+}
+
+.Player-display{
+    font-size: 1.5em;
+  
+}
+.Computer-display{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.result{
+    font-size: 4em;
+    margin: 10px;
+}
+
+.points{
+    font-size: 2em;
+    margin: 10px;
+}
